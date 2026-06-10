@@ -25,20 +25,33 @@
 //     }
 // }
 
-
 class Solution {
     public int findClosestNumber(int[] nums) {
-        int closest = nums[0];
+        int minCount = Integer.MAX_VALUE;
+        int answer = nums[0];
 
-        for (int num : nums) {
-            if (Math.abs(num) < Math.abs(closest)) {
-                closest = num;
-            } 
-            else if (Math.abs(num) == Math.abs(closest) && num > closest) {
-                closest = num;
+        for (int i = 0; i < nums.length; i++) {
+
+            int count = 0;
+
+            if (nums[i] >= 0) {
+                for (int j = nums[i]; j > 0; j--) {
+                    count++;
+                }
+            } else {
+                for (int j = nums[i]; j < 0; j++) {
+                    count++;
+                }
+            }
+
+            if (count < minCount) {
+                minCount = count;
+                answer = nums[i];
+            } else if (count == minCount && nums[i] > answer) {
+                answer = nums[i];
             }
         }
 
-        return closest;
+        return answer;
     }
 }
