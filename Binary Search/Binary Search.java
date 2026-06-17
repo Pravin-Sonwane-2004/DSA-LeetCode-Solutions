@@ -29,7 +29,7 @@ class Solution {
             int mid = start + (end-start) /2;
             if(target==nums[mid]) return mid;
             else if(target < mid) {
-                end = mid;
+                end = mid-1;
             }
             else {
                 start  = mid+1;
