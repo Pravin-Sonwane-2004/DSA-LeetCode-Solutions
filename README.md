@@ -11,6 +11,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Pravin-Sonwane-2004/DSA-LeetCode-Solutions/tree/master/0033-search-in-rotated-sorted-array) |
+| [0036-valid-sudoku](https://github.com/pravin-sonwane-2004/DSA-LeetCode-Solutions/tree/master/0036-valid-sudoku) |
 ## Binary Search
 |  |
 | ------- |
@@ -18,6 +19,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/pravin-sonwane-2004/DSA-LeetCode-Solutions/tree/master/0036-valid-sudoku) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/pravin-sonwane-2004/DSA-LeetCode-Solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## String
 |  |
@@ -27,4 +29,8 @@
 |  |
 | ------- |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/pravin-sonwane-2004/DSA-LeetCode-Solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/pravin-sonwane-2004/DSA-LeetCode-Solutions/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
